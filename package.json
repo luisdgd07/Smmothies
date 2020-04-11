@@ -1,24 +1,28 @@
 {
-  "name": "MongoVueExpress",
+  "name": "pruebaIngreso",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node index.js --exec babel-node",
-    "dev": "nodemon src/",
-    "devbabel": "nodemon index.js --exec babel-node"
+    "dev": "nodemon src/"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.0",
+    "@babel/node": "^7.7.1",
+    "@babel/preset-env": "^7.7.0",
+    "bootstrap": "^4.4.1",
+    "bootstrap-vue": "^2.1.0",
     "connect-history-api-fallback": "^1.6.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.4",
     "morgan": "^1.9.1",
-      "@babel/cli": "^7.7.0",
-  "@babel/core": "^7.7.0",
-  "@babel/node": "^7.7.1",
-  "@babel/preset-env": "^7.7.0"
+    "underscore": "^1.9.1",
+    "vue": "^2.6.11"
   }
 }
